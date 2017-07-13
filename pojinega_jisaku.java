@@ -13,13 +13,13 @@ import java.util.regex.Pattern;
 public class pojinega_jisaku {
     public static void main(String[] args)throws UnsupportedEncodingException {
     	
-    	int textnum = 0;//text数
+    	int textnum = 0;//textnum番目の文字列
     	
     	for(; textnum <= 2; textnum++){//textは仮に3つとしている
     		int[] score = new int [99];//ポジネガのスコア（positiveなら+1、negativeなら-1）
-    		for(int i = 0; i <= 99; i++){
+
     			score[1] = 0;
-    		}
+    		
     	
     	//textは100個のString型配列と仮定（渡されるtext形式によって随時変更予定）
         String[] texts = new String[100];
